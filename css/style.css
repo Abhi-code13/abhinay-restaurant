@@ -664,11 +664,13 @@ input[type="text"] {
         position: absolute;
         left: 0;
         right: 0;
-        top: 120px;
+        top: 80px;
         flex-direction: column;
         background: white;
     }
-
+    .navbar-collapse ul{
+        gap: 15px;
+    }
     .navbar-collapse>ul {
         flex-direction: column;
     }
@@ -685,7 +687,7 @@ input[type="text"] {
 @media screen and (max-width : 1060px) {
     .banner-section {
         text-align: center;
-        padding: 100px 0;
+        padding: 130px 0 100 0;
     }
 
     .banner-section>div>div.row {
@@ -855,10 +857,6 @@ input[type="text"] {
     .inner-chef {
         justify-content: center;
     }
-
-    /* .chef-checks {
-        flex-basis: 50%;
-    } */
 }
 
 @media screen and (max-width: 768px) {
