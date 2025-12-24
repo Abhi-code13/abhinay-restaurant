@@ -800,6 +800,7 @@ input[type="text"] {
     header {
         position: relative;
         padding-top: 25px;
+        z-index: 999;
     }
 
     .navbar-collapse {
@@ -810,6 +811,7 @@ input[type="text"] {
         top: 80px;
         flex-direction: column;
         background: white;
+        
     }
 
     .navbar-collapse ul {
@@ -988,6 +990,7 @@ input[type="text"] {
 }
 
 @media screen and (max-width: 1024px) {
+   
     .chef>div>div.row {
         flex-wrap: wrap;
         justify-content: center;
