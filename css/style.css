@@ -9,11 +9,12 @@
 
 html {
   scroll-behavior: smooth;
+
 }
 
 html,
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 [data-aos] {
   transition-property: transform, opacity;
@@ -22,7 +23,7 @@ body {
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     /* prevent horizontal scroll */
 }
 
